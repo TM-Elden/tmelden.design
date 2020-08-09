@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2> Contact Me </h2>
+<p> Feel free to reach out via the form below or by <a href="mailto:tomeeemoore@gmail.com">email</a>.</p>
+<div class="container">
+    <div class="form-group">
+        <div class="form-group">
+            <label for="">Your Email:</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Subject</label>
+            <input class="form-control" id="subject" rows="1"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Body</label>
+            <textarea class="form-control" id="body" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+<br>
+
+<h2>Find me on social media </h2>
+<ul>
+    <li>Facebook</li>
+    <li>Twitter</li>
+    <li>Instagram</li>
+    <li><a href="https://github.com/TM-Elden">Github</a></li>
+</ul>
+</div>
+{% endblock content %}

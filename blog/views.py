@@ -6,3 +6,19 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'index.html')
+
+
+def blog(request):
+    return render(request, 'blog.html')
+
+
+def projects(request):
+    return render(request, 'projects.html')
+
+
+def contact(request):
+    return render(request, 'contact.html')
+
+
+def bio(request):
+    return render(request, 'bio.html')
